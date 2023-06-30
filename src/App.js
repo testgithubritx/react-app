@@ -25,7 +25,7 @@ function App(){
 
 <EcomNavbar/>
 
-{/* icon */}
+
 <main>
 <div className= " d-flex flex-rows" style={{backgroundColor:'white',height:'100px',}}>
 
@@ -76,11 +76,7 @@ function App(){
 
 
 </div>
-{/* <div className= "d-flex flex-rows" style={{backgroundColor:'white',height:'50px',marginTop:'0px'}}>
-&nbsp;
 
-
-</div>  */}
 </main>
 
 

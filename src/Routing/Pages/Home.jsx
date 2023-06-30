@@ -1,72 +1,13 @@
 import React from 'react';
-import {Link,  Outlet} from 'react-router-dom'
+import { Outlet} from 'react-router-dom'
 
 const Home=()=>{
   
 
     return(
         <div className="container">
-          <div className= "d-flex flex-row" style={{backgroundColor:'white',height:'100px',}}>
-          <img src='https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100' alt='' 
-          style={{height:'90px',marginLeft:'30px',marginTop:'15px'}}/>
-         
-         <img src='https://rukminim1.flixcart.com/image/312/312/kynb6vk0/computer/k/j/a/-original-imagaufne7h4hgbz.jpeg?q=70' alt=''style={{height:'60px',marginLeft:'30px',marginTop:'25px'}}/>
-
-         <img src='https://rukminim1.flixcart.com/image/612/612/xif0q/headphone/p/r/z/enco-buds-2-oppo-original-imagh9frfp7gxdb3.jpeg?q=70' alt=''style={{height:'60px',marginLeft:'65px',marginTop:'25px'}}/>
-          </div>
-
-          <div className= "d-flex flex-row" style={{backgroundColor:'white',height:'50px',marginTop:'0px'}}>
-          <Link to={'phone'} style={{marginLeft:'50px'}}>Phone</Link>&nbsp;
-          <Link to={'laptop'} style={{marginLeft:'60px'}}>Laptop</Link>
-          <Link to={'headphone'} style={{marginLeft:'55px'}}>Headphone</Link>
-
-          </div>
-
-
           <Outlet/>
 
-
-
-           
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/71mDlg4f6QL._SX3000_.jpg" class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Smart Phone</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61MTFnfw6YL._SX3000_.jpg" class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/61aURrton0L._SX3000_.jpg" class="d-block w-100" alt="..."/>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-target="#carouselExampleCaptions" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-target="#carouselExampleCaptions" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </button>
-</div>
-        {/* <button className="btn btn-warning text-light" onClick={()=>Navigate('/user_profile')}>Profile</button> */}
     <div className=" d-flex flex-rows">
     <div class="card border border-dark" style={{width: '18rem'}}>
   <img src="https://rukminim1.flixcart.com/image/200/200/k3j1z0w0/ceiling-lamp/w/7/r/gold-01-classical-original-imafmbywhhurgf6b.jpeg?q=70" class="card-img-top" alt="..."/>
