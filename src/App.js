@@ -1,118 +1,118 @@
 //1 ecomerse
 
-// import  EcomNavbar from './Routing/Pages/EcomNavbar.jsx';
-// import  Home from './Routing/Pages/Home.jsx';
-// import Phone from './Routing/Pages/Phone.jsx';
-// import Laptop from './Routing/Pages/Laptop.jsx';
-// import Headphone from './Routing/Pages/Headphone.jsx';
-// import Furniture from './Routing/Pages/Furniture.jsx';
-// import Fridge from './Routing/Pages/Fridge.jsx';
-// import Shoe from './Routing/Pages/Shoe.jsx';
-// import SmartTV from './Routing/Pages/SmartTV.jsx';
-// import Smartwatch from './Routing/Pages/Smartwatch.jsx';
+import  EcomNavbar from './Routing/Pages/EcomNavbar.jsx';
+import  Home from './Routing/Pages/Home.jsx';
+import Phone from './Routing/Pages/Phone.jsx';
+import Laptop from './Routing/Pages/Laptop.jsx';
+import Headphone from './Routing/Pages/Headphone.jsx';
+import Furniture from './Routing/Pages/Furniture.jsx';
+import Fridge from './Routing/Pages/Fridge.jsx';
+import Shoe from './Routing/Pages/Shoe.jsx';
+import SmartTV from './Routing/Pages/SmartTV.jsx';
+import Smartwatch from './Routing/Pages/Smartwatch.jsx';
 
-// import  Register from  './Routing/Pages/Register.jsx'
-// import  Login from  './Routing/Pages/Login.jsx'
+import  Register from  './Routing/Pages/Register.jsx'
+import  Login from  './Routing/Pages/Login.jsx'
 
-// import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
-// function App(){
-//   return(
-//   <>
+import {BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+function App(){
+  return(
+  <>
   
-//     <Router>
-//     <div className="container">
+    <Router>
+    <div className="container">
     
 
-// <EcomNavbar/>
+<EcomNavbar/>
 
-// {/* icon */}
-// <main>
-// <div className= " d-flex flex-rows" style={{backgroundColor:'white',height:'100px',}}>
-
-
-//  <div className='k'> 
-// <img src="https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/a/e/g/iphone-13-pro-mlvw3hn-a-apple-original-imag6vpcvspnzyfy.jpeg?q=70" className=" rounded float-left" alt="..." style={{height:'59px',marginLeft:'49px',marginTop:'27px'}}></img>
-// <Link to={'phone'} style={{marginLeft:'47px'}} >Phone</Link>
-// </div>
-
-//  <div className='a'>         
-// <img src='https://rukminim1.flixcart.com/image/312/312/kynb6vk0/computer/k/j/a/-original-imagaufne7h4hgbz.jpeg?q=70'  className=" rounded float-left" alt=''style={{height:'60px',marginLeft:'56px',marginTop:'27px'}}/>
-// <Link to={'laptop'} style={{marginLeft:'64px'}}>Laptop</Link>
-// </div>
-
-// <div className='r'>
-// <img src='https://rukminim1.flixcart.com/image/612/612/xif0q/headphone/p/r/z/enco-buds-2-oppo-original-imagh9frfp7gxdb3.jpeg?q=70'  className=" rounded float-left" alt=''style={{height:'80px',marginLeft:'71px',marginTop:'10px'}}/>
-// <Link to={'headphone'} style={{marginLeft:'60px'}}>Headphone</Link>
-// </div>
+{/* icon */}
+<main>
+<div className= " d-flex flex-rows" style={{backgroundColor:'white',height:'100px',}}>
 
 
-// <div className='c'>
-// <img src="https://rukminim1.flixcart.com/image/612/612/ju04akw0/rocking-chair/f/t/a/1-seater-rosewood-sheesham-sd95-allie-wood-mahogany-finish-original-imaff5sdabb6hzfa.jpeg?q=70"  className="rounded float-left" alt="" style={{height:'75px',marginLeft:'66px',marginTop:'20px'}}/>
-// <Link to={'furniture'} style={{marginLeft:'56px'}}>Furniture</Link>
-// </div>
+ <div className='k'> 
+<img src="https://rukminim1.flixcart.com/image/312/312/ktketu80/mobile/a/e/g/iphone-13-pro-mlvw3hn-a-apple-original-imag6vpcvspnzyfy.jpeg?q=70" className=" rounded float-left" alt="..." style={{height:'59px',marginLeft:'49px',marginTop:'27px'}}></img>
+<Link to={'phone'} style={{marginLeft:'47px'}} >Phone</Link>
+</div>
 
-// <div className='i'>
-// <img src="https://rukminim1.flixcart.com/image/312/312/xif0q/refrigerator-new/f/m/d/hed-204mfb-p-1313-4-2023-38-haier-628-541-original-imagmvfzvkrfnrwe.jpeg?q=70"  className="k rounded float-left" alt="" style={{height:'70px',marginLeft:'50px',marginTop:'25px'}}/>
-// <Link to={'fridge'} style={{marginLeft:'46px'}}>Fridge</Link>
-// </div>
+ <div className='a'>         
+<img src='https://rukminim1.flixcart.com/image/312/312/kynb6vk0/computer/k/j/a/-original-imagaufne7h4hgbz.jpeg?q=70'  className=" rounded float-left" alt=''style={{height:'60px',marginLeft:'56px',marginTop:'27px'}}/>
+<Link to={'laptop'} style={{marginLeft:'64px'}}>Laptop</Link>
+</div>
 
-// <div className='d'>
-// <img src="https://rukminim1.flixcart.com/image/400/400/xif0q/shoe/0/n/i/10-385881-10-puma-black-asphalt-original-imaghhrzeu6edfft.jpeg?q=70"  className="rounded float-left" alt="" style={{height:'60px',marginLeft:'50px',marginTop:'30px'}}/>
-// <Link to={'shoe'} style={{marginLeft:'75px'}}>Shoe</Link>
-// </div>
-
-
-// <div className='e'>
-// <img src="https://rukminim1.flixcart.com/image/612/612/xif0q/smartwatch/b/e/t/-original-imagnuu8mfzfsfdz.jpeg?q=70"   className="rounded float-left" alt="" style={{height:'60px',marginLeft:'54px',marginTop:'30px'}}/>
-// <Link to={'smartwatch'} style={{marginLeft:'40px'}}>Smartwatch</Link>
-// </div>
-
-// <div className='f'>
-// <img src="https://rukminim1.flixcart.com/image/312/312/kqidx8w0/television/m/1/v/32ha0a00-oneplus-original-imag4gy8yezxdhen.jpeg?q=70" className="rounded float-left" alt="" style={{height:'50px',marginLeft:'30px',marginTop:'35px'}}/>
-// <Link to={'Smarttv'} style={{marginLeft:'40px'}}>SmartTV</Link> 
-// </div>
+<div className='r'>
+<img src='https://rukminim1.flixcart.com/image/612/612/xif0q/headphone/p/r/z/enco-buds-2-oppo-original-imagh9frfp7gxdb3.jpeg?q=70'  className=" rounded float-left" alt=''style={{height:'80px',marginLeft:'71px',marginTop:'10px'}}/>
+<Link to={'headphone'} style={{marginLeft:'60px'}}>Headphone</Link>
+</div>
 
 
+<div className='c'>
+<img src="https://rukminim1.flixcart.com/image/612/612/ju04akw0/rocking-chair/f/t/a/1-seater-rosewood-sheesham-sd95-allie-wood-mahogany-finish-original-imaff5sdabb6hzfa.jpeg?q=70"  className="rounded float-left" alt="" style={{height:'75px',marginLeft:'66px',marginTop:'20px'}}/>
+<Link to={'furniture'} style={{marginLeft:'56px'}}>Furniture</Link>
+</div>
+
+<div className='i'>
+<img src="https://rukminim1.flixcart.com/image/312/312/xif0q/refrigerator-new/f/m/d/hed-204mfb-p-1313-4-2023-38-haier-628-541-original-imagmvfzvkrfnrwe.jpeg?q=70"  className="k rounded float-left" alt="" style={{height:'70px',marginLeft:'50px',marginTop:'25px'}}/>
+<Link to={'fridge'} style={{marginLeft:'46px'}}>Fridge</Link>
+</div>
+
+<div className='d'>
+<img src="https://rukminim1.flixcart.com/image/400/400/xif0q/shoe/0/n/i/10-385881-10-puma-black-asphalt-original-imaghhrzeu6edfft.jpeg?q=70"  className="rounded float-left" alt="" style={{height:'60px',marginLeft:'50px',marginTop:'30px'}}/>
+<Link to={'shoe'} style={{marginLeft:'75px'}}>Shoe</Link>
+</div>
 
 
-// </div>
-// {/* <div className= "d-flex flex-rows" style={{backgroundColor:'white',height:'50px',marginTop:'0px'}}>
-// &nbsp;
+<div className='e'>
+<img src="https://rukminim1.flixcart.com/image/612/612/xif0q/smartwatch/b/e/t/-original-imagnuu8mfzfsfdz.jpeg?q=70"   className="rounded float-left" alt="" style={{height:'60px',marginLeft:'54px',marginTop:'30px'}}/>
+<Link to={'smartwatch'} style={{marginLeft:'40px'}}>Smartwatch</Link>
+</div>
 
-
-// </div>  */}
-// </main>
+<div className='f'>
+<img src="https://rukminim1.flixcart.com/image/312/312/kqidx8w0/television/m/1/v/32ha0a00-oneplus-original-imag4gy8yezxdhen.jpeg?q=70" className="rounded float-left" alt="" style={{height:'50px',marginLeft:'30px',marginTop:'35px'}}/>
+<Link to={'Smarttv'} style={{marginLeft:'40px'}}>SmartTV</Link> 
+</div>
 
 
 
 
-//  </div><br/><br/>
+</div>
+{/* <div className= "d-flex flex-rows" style={{backgroundColor:'white',height:'50px',marginTop:'0px'}}>
+&nbsp;
+
+
+</div>  */}
+</main>
+
+
+
+
+ </div><br/><br/>
  
-//           <Routes>
-//          <Route path="/home" element={<Home/>} />
-//          <Route path='phone' element={<Phone />}/>
-//           <Route path="laptop" element={<Laptop/>} /> 
-//           <Route path="headphone" element={<Headphone/>} />
-//           <Route path="furniture" element={<Furniture/>} />
-//           <Route path="fridge" element={<Fridge/>} />
-//           <Route path="shoe" element={<Shoe/>} /> 
-//           <Route path="smartwatch" element={<Smartwatch/>} /> 
-//           <Route path="Smarttv" element={<SmartTV/>} />   
+          <Routes>
+         <Route path="/home" element={<Home/>} />
+         <Route path='phone' element={<Phone />}/>
+          <Route path="laptop" element={<Laptop/>} /> 
+          <Route path="headphone" element={<Headphone/>} />
+          <Route path="furniture" element={<Furniture/>} />
+          <Route path="fridge" element={<Fridge/>} />
+          <Route path="shoe" element={<Shoe/>} /> 
+          <Route path="smartwatch" element={<Smartwatch/>} /> 
+          <Route path="Smarttv" element={<SmartTV/>} />   
          
 
-//          <Route path="/register" element={<Register/>}/>
-//          <Route path="/login" element={<Login/>}/>
+         <Route path="/register" element={<Register/>}/>
+         <Route path="/login" element={<Login/>}/>
          
          
-//        </Routes>
-//      </Router>
+       </Routes>
+     </Router>
    
 
 
-//        </>
-//   )
-// }
-// export default App;
+       </>
+  )
+}
+export default App;
 
 
 
@@ -551,18 +551,18 @@
 // }
 // export default App;
 
-import './App.css'
-import Quiz from './quizproject/Quiz'
-// import UseContext12 from './Hooks/UseContext12'
-function App(){
-  return(
-    <>
-    <Quiz/>
-    {/* <UseContext12/> */}
-    </>
-  )
-}
-export default App;
+// import './App.css'
+// import Quiz from './quizproject/Quiz'
+// // import UseContext12 from './Hooks/UseContext12'
+// function App(){
+//   return(
+//     <>
+//     <Quiz/>
+//     {/* <UseContext12/> */}
+//     </>
+//   )
+// }
+// export default App;
 
 
 
