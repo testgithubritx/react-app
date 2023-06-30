@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>if else</title>
+</head>
+<body>
+    <!-- 1 -->
+    <!-- value:<input type="text" id="f1"/><br/>
+    <button onclick="fun()">Submit</button><br/>
+    <span id="f2"></span>
+
+    <script>
+        function fun(){
+        const a = document.getElementById('f1').value;
+        if(a>=18){
+            document.getElementById('f2').innerHTML='voter';
+        }
+        else{
+            document.getElementById('f2').innerHTML='not voter';
+        }}
+    </script> -->
+
+    <!-- 2 -->
+    <!-- Enter A :<input type="text" id="f1"/><br/><br/>
+    Enter B :<input type="text" id="f2"/><br/><br/>
+    <button onclick="fun()">Submit</button><br/><br/>
+    <span id="f3"></span>
+
+    <script>
+        function fun(){
+            const a =Number(document.getElementById('f1').value);
+            const b = Number(document.getElementById('f2').value);
+            if(a>b){
+                document.getElementById('f3').innerHTML=a;
+            }
+            else if(b>a){
+                document.getElementById('f3').innerHTML=b;
+            }
+            else{
+                document.getElementById('f3').innerHTML='invalid';
+            }
+        }
+    </script> -->
+   <!-- 3 -->
+   Enter A :- <input type="text" id="f1" /><br/><br/>
+   <button onclick="fun()">Submit</button><br/><br/>
+   OutPut is :-<span id="f3"></span>
+   
+   <script>
+    function fun(){
+       const a = document.getElementById('f1').value;
+       if(a>0){
+        document.getElementById('f3').innerHTML='It is Postive Number';
+       }
+       else if(a<0){
+        document.getElementById('f3').innerHTML='It is Negative Number';
+       }
+       else if(a==0){
+        document.getElementById('f3').innerHTML='It is Equal Number'
+       }
+       else{
+        document.getElementById('f3').innerHTML='Invalid'
+       }
+    }
+   </script>
+</body>
+</html>
