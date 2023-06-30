@@ -1,5 +1,5 @@
 {
-  
+  "homepage": "https://testgithubritx.github.io/cart-react",
   "name": "reactjs11",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,8 @@
     "yup": "^1.0.2"
   },
   "scripts": {
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
