@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/quiz/static/css/main.a56b365b.css",
-    "main.js": "/quiz/static/js/main.2f30d30f.js",
-    "index.html": "/quiz/index.html",
-    "main.a56b365b.css.map": "/quiz/static/css/main.a56b365b.css.map",
-    "main.2f30d30f.js.map": "/quiz/static/js/main.2f30d30f.js.map"
+    "main.css": "/ayu-react/static/css/main.e6c13ad2.css",
+    "main.js": "/ayu-react/static/js/main.6244c890.js",
+    "index.html": "/ayu-react/index.html",
+    "main.e6c13ad2.css.map": "/ayu-react/static/css/main.e6c13ad2.css.map",
+    "main.6244c890.js.map": "/ayu-react/static/js/main.6244c890.js.map"
   },
   "entrypoints": [
-    "static/css/main.a56b365b.css",
-    "static/js/main.2f30d30f.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6244c890.js"
   ]
 }
